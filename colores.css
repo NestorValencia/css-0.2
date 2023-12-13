@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+.backgroudimg{
+    background-image: url(bgimg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 500px;
+}
