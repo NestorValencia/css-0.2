@@ -1,9 +1,9 @@
 body{
-    line-height: 1.4;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
 }
 header{
-    background: rgb(102, 153, 102);
+    background: #669966;
     padding: 1em;
 }
 h1{
@@ -12,9 +12,41 @@ h1{
 a{
     font-size: 24px;
     font-weight:bold ;
+    color: rgba(0, 0, 0,0.6);
     text-decoration: none;
     padding: 0.3em 0.5em;
     border-radius: 5px;
     background-color: rgb(102, 153, 102);
-    transition: backgroun-color is linear;
+    transition: linear;
+}
+form{
+    display: inline;
+    margin-left: auto;
+    padding-left: 2em;
+    width: 100%;
+}
+label{
+    font-size: 24px;
+}
+input{
+    padding: 0.7em 0.5em;
+}
+button{
+    padding: 0.7em 1em;
+    cursor:pointer;
+}
+input,button{
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, );
+    transition: linear;
+}
+
+a:hover, input:hover, button:hover{
+    box-shadow: 000 3px rgb(0, 0, 0,);
+    outline: 0;
+}
+input,button{
+    border: 0;
 }
